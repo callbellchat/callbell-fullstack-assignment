@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/javascript/images/logo.png" width="200" height="auto" /></p>
 
-# Callbell Full-Stack Test
+# Callbell Full Stack Test
 
 Hi there 👋 Thanks for taking the time to do this test! We hope that you're going to have fun!
 
@@ -15,7 +15,7 @@ If you struggle to finish it, value your time and don't spend days on it. Just s
 
 ## 🚀 Objectives
 
-The goal of this full-stack test is to assess your skills on:
+The goal of this full stack test is to assess your skills on:
 
 - Installing and running a Rails development environment;
 - Making API calls to third-party services;
@@ -60,7 +60,7 @@ Alternatively, you can [download the source code](https://github.com/callbellcha
 ### Create a Trello account
 
 1. Create a free [Trello](https://trello.com) account if you don't have one already, then visit https://trello.com/app-key to generate credentials.
-2. Create a new board `Callbell full-stack test`.
+2. Create a new board `Callbell full stack test`.
 3. Open the board, and append `.json` into the URL bar to get the board ID (example: `https://trello.com/b/W6RusfMK/epycure-back-end-test.json`).
 4. Copy the credentials and the board ID into your `.env` file.
 
@@ -143,7 +143,7 @@ In case of a dependency error, the server returns a `424` error code.
 
 ## 📪 Once you're done
 
-Send me an email at [gianluca@callbell.eu](mailto:gianluca@callbell.eu) with subject `[Full-stack test]`, and containing:
+Send me an email at [gianluca@callbell.eu](mailto:gianluca@callbell.eu) with subject `[Full Stack Test]`, and containing:
 
 - either a link to the GitHub repository of your project (if you want to keep it private, add [@proudlygeek](http://github.com/proudlygeek) as collaborator),
 - **OR** a ZIP **WITHOUT the `node_modules` folder**;
