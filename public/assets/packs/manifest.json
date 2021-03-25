@@ -1,0 +1,33 @@
+{
+  "components/App.js": "/assets/packs/js/components/App-9906d457c0051bf63d64.js",
+  "entrypoints": {
+    "components/App": {
+      "assets": {
+        "js": [
+          "/assets/packs/js/runtime-cb63c72036f747ed8853.js",
+          "/assets/packs/js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js",
+          "/assets/packs/js/components/App-9906d457c0051bf63d64.js"
+        ]
+      }
+    },
+    "hello_react": {
+      "assets": {
+        "js": [
+          "/assets/packs/js/runtime-cb63c72036f747ed8853.js",
+          "/assets/packs/js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js",
+          "/assets/packs/js/vendors-node_modules_react-dom_index_js-92dbc6cf7e7818a5ea6d.js",
+          "/assets/packs/js/hello_react-c1f646312acfbeb5fa8c.js"
+        ]
+      }
+    }
+  },
+  "hello_react.js": "/assets/packs/js/hello_react-c1f646312acfbeb5fa8c.js",
+  "js/components/App-9906d457c0051bf63d64.js.map": "/assets/packs/js/components/App-9906d457c0051bf63d64.js.map",
+  "js/hello_react-c1f646312acfbeb5fa8c.js.map": "/assets/packs/js/hello_react-c1f646312acfbeb5fa8c.js.map",
+  "js/runtime-cb63c72036f747ed8853.js.map": "/assets/packs/js/runtime-cb63c72036f747ed8853.js.map",
+  "js/vendors-node_modules_react-dom_index_js-92dbc6cf7e7818a5ea6d.js": "/assets/packs/js/vendors-node_modules_react-dom_index_js-92dbc6cf7e7818a5ea6d.js",
+  "js/vendors-node_modules_react-dom_index_js-92dbc6cf7e7818a5ea6d.js.map": "/assets/packs/js/vendors-node_modules_react-dom_index_js-92dbc6cf7e7818a5ea6d.js.map",
+  "js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js": "/assets/packs/js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js",
+  "js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js.map": "/assets/packs/js/vendors-node_modules_react_index_js-c2b191293bfcf99b9711.js.map",
+  "runtime.js": "/assets/packs/js/runtime-cb63c72036f747ed8853.js"
+}
