@@ -61,7 +61,7 @@ Alternatively, you can [download the source code](https://github.com/callbellcha
 
 1. Create a free [Trello](https://trello.com) account if you don't have one already, then visit https://trello.com/app-key to generate credentials.
 2. Create a new board `Callbell full stack test`.
-3. Open the board, and append `.json` into the URL bar to get the board ID (example: `https://trello.com/b/W6RusfMK/epycure-back-end-test.json`).
+3. Open the board, and append `.json` into the URL bar to get the board ID (example: `https://trello.com/b/W6RusfMK/callbell-fullstack-test.json`).
 4. Copy the credentials and the board ID into your `.env` file.
 
 ### Running the project
