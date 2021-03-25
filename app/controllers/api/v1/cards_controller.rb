@@ -8,10 +8,4 @@ class Api::V1::CardsController < ApplicationController
     #  - add body params validation
     #  - push card to Trello
   end
-
-  def update
-  end
-
-  def destroy
-  end
 end

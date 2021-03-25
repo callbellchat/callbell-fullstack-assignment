@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Api::V1::Webhooks", type: :request do
+RSpec.describe Api::V1::WebhooksController, type: :controller do
   describe "GET /index" do
     # TODO: Test your trello webhook logic here. 
     pending "add some examples (or delete) #{__FILE__}"
