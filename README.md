@@ -38,7 +38,7 @@ The React frontend app should be able to:
 
 The exercise is to write some code **only** where the `TODO: ` instructions are:
 
-- [./app/controllers/api/v1/cards_controller.rb](./app/controllers/api/v1/cards_controller.rb): write the endpoint to create cards (see [API reference](#api-reference) below);
+- [./app/controllers/api/v1/cards_controller.rb](./app/controllers/api/v1/cards_controller.rb): write the endpoint to create cards (see [API reference](#-api-reference) below);
 - [./app/controllers/api/v1/webhooks_controller.rb](./app/controllers/api/v1/webhooks_controller.rb): write the Trello webhook that saves cards to the database;
 - [./spec/requests/api/v1/cards_spec.rb](./spec/requests/cards_spec.rb): write the the tests for the controller;
 - [./spec/requests/api/v1/webhooks_controller_spec.rb](./spec/requests/api/v1/webhooks_controller_spec.rb): write the the tests for the trello webhook;
@@ -110,7 +110,7 @@ Your server will be available at [localhost:3000](http://localhost:3000). Change
       <td>Create a new card in Trello</td>
       <td><div class="highlight highlight-source-json"><pre>{
   "name": "My new Trello Card !",
-  "idList": "5fa106c99173787897d5ff3e",
+  "id_list": "5fa106c99173787897d5ff3e",
   "description": "This is a nice description :).",
   "due": "2020-12-24",
 }</pre></div></td>
