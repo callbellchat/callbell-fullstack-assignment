@@ -8,7 +8,7 @@ The goal here is to allow you to build an MVP of a Trello Clone Board giving you
 
 We'll discuss your work (choices, code syntax, mistakes if there are some, etc.) during a review call after you have completed the assignment.
 
-**⚠️ Carefully read all the instructions, then give yourself a limited time. ⚠️**
+⚠️ **Carefully read all the instructions, then give yourself a limited time.**
 
 If you struggle to finish it, value your time and don't spend days on it. Just submit your best effort.
 
