@@ -4,11 +4,12 @@
 
 Hi there 👋 Thanks for taking the time to do this test! We hope that you're going to have fun!
 
-This test was built to be performed under 2-3 hours at best: The goal here is to allow you to build an MVP of a Trello Clone Board.
+The goal here is to allow you to build an MVP of a Trello Clone Board giving you a limited time.
 
 We'll discuss your work (choices, code syntax, mistakes if there are some, etc.) during a review call after you have completed the assignment.
 
-**Carefully read all the instructions, then give yourself a limited time.**
+**⚠️ Carefully read all the instructions, then give yourself a limited time. ⚠️**
+
 If you struggle to finish it, value your time and don't spend days on it. Just submit your best effort.
 
 ⚠️ If you think something is wrong with the test (doesn't run as expected, missing instructions, ...), please email me at [gianluca@callbell.eu](mailto:gianluca@callbell.eu).
