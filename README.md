@@ -43,6 +43,7 @@ The exercise is to write some code **only** where the `TODO: ` instructions are:
 - [./app/controllers/api/v1/webhooks_controller.rb](./app/controllers/api/v1/webhooks_controller.rb): write the Trello webhook that saves cards to the database;
 - [./spec/controllers/api/v1/cards_controller_spec.rb](./spec/controllers/api/v1/cards_controller_spec.rb): write the the tests for the controller;
 - [./spec/controllers/api/v1/webhooks_controller_spec.rb](./spec/controllers/api/v1/webhooks_controller_spec.rb): write the the tests for the trello webhook;
+- [./spec/models/card_spec.rb](./spec/models/card_spec.rb): write the tests for the card model;
 - [./app/models/card.rb](./app/models/card.rb): write the methods needed in the model;
 - [./app/javascript/packs/components/App.jsx](./app/javascript/packs/components/App.jsx): write the React components (you can also use the `components` if you want to split into multiple components)
 
