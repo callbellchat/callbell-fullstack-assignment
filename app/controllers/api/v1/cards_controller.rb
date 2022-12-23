@@ -2,8 +2,8 @@ class Api::V1::CardsController < ApplicationController
   # TODO: Fill the controller actions for the API
 
   def index
-    @cards = Card.all
-    @board = Trello::Board.find(ENV['TRELLO_BOARD_ID'])
+    @cards = Card.order("created_at DESC").all
+    render json: @cards
   end
 
   def new
