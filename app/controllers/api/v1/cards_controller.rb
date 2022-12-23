@@ -2,7 +2,7 @@ class Api::V1::CardsController < ApplicationController
   # TODO: Fill the controller actions for the API
 
   def index
-    @cards = Card.order("created_at DESC").all
+    @cards = Card.order('created_at DESC').all
     render json: @cards
   end
 
@@ -12,7 +12,8 @@ class Api::V1::CardsController < ApplicationController
 
   def create
     @card = Card.new(card_params)
-    trello_card = Trello::Card.create(name: card_params[:name], desc: card_params[:desc], list_id: card_params[:idList])
+    trello_card = Trello::Card.create(name: card_params[:name], desc: card_params[:desc], due: card_params[:due],
+                                      list_id: card_params[:idList])
 
     if @card.save
       render json: @card, status: 201
@@ -24,6 +25,6 @@ class Api::V1::CardsController < ApplicationController
   private
 
   def card_params
-    params.require(:card).permit(:name, :desc, :idList)
+    params.require(:card).permit(:name, :desc, :due, :idList)
   end
 end

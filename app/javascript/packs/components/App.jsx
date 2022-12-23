@@ -68,9 +68,9 @@ export default function App() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-gray-100">
+    <div className="w-full min-h-screen bg-gray-100 pt-8">
       <div className="container mx-auto">
-        <h1 className="font-bold text-gray-900 text-2xl my-4">
+        <h1 className="font-bold text-gray-900 text-2xl mb-4">
           Callbell Full Stack Test
         </h1>
         <Form
