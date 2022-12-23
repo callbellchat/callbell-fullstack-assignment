@@ -7,6 +7,7 @@ environment.plugins.append(
   'html',
   new HtmlWebpackPlugin({
     alwaysWriteToDisk: true,
+    title: 'Callbell Full Stack Test',
   })
 );
 
