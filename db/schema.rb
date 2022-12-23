@@ -14,7 +14,9 @@ ActiveRecord::Schema.define(version: 2022_12_22_163446) do
 
   create_table "cards", force: :cascade do |t|
     t.string "name"
+    t.string "idList"
     t.text "desc"
+    t.string "due"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

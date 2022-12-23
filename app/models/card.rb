@@ -1,4 +1,7 @@
 class Card < ApplicationRecord
-  # TODO: Add the relationship / methods of the Trello Card here
+  validates :name, presence: true
+  validates :desc, presence: true
+  validates :idList, presence: true
+  validates :due, presence: true
 end
 
