@@ -6,6 +6,7 @@ import { CARDS_URL } from '../constants';
 
 export default function App() {
   const [inputs, setInputs] = useState({});
+  // TODO: create custom useFetch hook
   const [isLoading, setIsLoading] = useState(false);
 
   const fetchCards = async () => {

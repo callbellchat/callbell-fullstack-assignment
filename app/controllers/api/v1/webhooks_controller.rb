@@ -17,7 +17,7 @@ class Api::V1::WebhooksController < ApplicationController
     parsedCard = data_parsed['action']['data']['card']
     case event
     when 'createCard'
-      card = Card.new(idTrelloCard: parsedCard['id'], name: parsedCard['name'], idList: get_list_id)
+      card = Card.new(remote_trello_card_id: parsedCard['id'], name: parsedCard['name'], list_id: get_list_id)
       if card.save
         render json: @card, status: 201
       else
@@ -25,7 +25,7 @@ class Api::V1::WebhooksController < ApplicationController
       end
 
     when 'updateCard'
-      card = Card.find_by(idTrelloCard: parsedCard['id'])
+      card = Card.find_by(remote_trello_card_id: parsedCard['id'])
       card['name'] = parsedCard['name']
       card['desc'] = parsedCard['desc'] if parsedCard['desc']
       card['due'] = parsedCard['due'] if parsedCard['due']
@@ -37,7 +37,7 @@ class Api::V1::WebhooksController < ApplicationController
       end
 
     when 'deleteCard'
-      card = Card.find_by(idTrelloCard: parsedCard['id'])
+      card = Card.find_by(remote_trello_card_id: parsedCard['id'])
       card.destroy
     else
       p 'uhandled event'

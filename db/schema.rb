@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 2022_12_22_163446) do
 
   create_table "cards", force: :cascade do |t|
-    t.string "idTrelloCard"
+    t.string "remote_trello_card_id"
     t.string "name"
-    t.string "idList"
+    t.string "list_id"
     t.text "desc"
     t.string "due"
     t.datetime "created_at", precision: 6, null: false
