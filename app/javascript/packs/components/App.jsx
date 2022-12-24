@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './Form';
 import List from './List';
 import { useState, useEffect } from 'react';
-import { ID_LIST, CARDS_URL } from '../constants';
+import { CARDS_URL } from '../constants';
 
 export default function App() {
   const [inputs, setInputs] = useState({});
@@ -38,8 +38,7 @@ export default function App() {
     const body = {
       name: inputs.name,
       desc: inputs.desc,
-      idList: ID_LIST,
-      due: inputs.due
+      due: inputs.due,
     };
 
     try {
@@ -52,7 +51,7 @@ export default function App() {
       });
       const data = await response.json();
       console.log(`card ${data.name} created`);
-      await fetchCards()
+      await fetchCards();
     } catch (error) {
       console.error('error :', error);
     } finally {

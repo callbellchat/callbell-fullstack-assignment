@@ -38,7 +38,6 @@ export default function Form({ inputs, onSubmit, onChange, isLoading }) {
               name="desc"
               value={inputs.desc || ''}
               onChange={onChange}
-              required
             />
           </label>
         </div>
