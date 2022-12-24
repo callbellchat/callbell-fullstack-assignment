@@ -42,11 +42,13 @@ export default function Form({ inputs, onSubmit, onChange, isLoading }) {
           </label>
         </div>
       </div>
-      {!isLoading && (
-        <button className="btn btn-green pointer-events-auto" type="submit">
-          Crate card
-        </button>
-      )}
+      <button
+        className="btn btn-green pointer-events-auto disabled:opacity-30"
+        type="submit"
+        disabled={isLoading}
+      >
+        Create card
+      </button>
     </form>
   );
 }

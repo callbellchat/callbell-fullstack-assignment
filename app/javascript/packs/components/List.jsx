@@ -3,6 +3,7 @@ import React from 'react';
 export default function List({ isLoading, cards }) {
   return (
     <div className="max-w-sm mt-10">
+      {isLoading && <div> Loading</div>}
       {!isLoading &&
         cards.length &&
         cards.map((card, index) => {
