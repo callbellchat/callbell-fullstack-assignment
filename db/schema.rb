@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 2022_12_22_163446) do
 
   create_table "cards", force: :cascade do |t|
+    t.string "idTrelloCard"
     t.string "name"
     t.string "idList"
     t.text "desc"
