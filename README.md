@@ -30,7 +30,7 @@ The goal of this full stack test is to assess your skills on:
 The server should be able to:
 
 - Create Trello cards through a secured route;
-- Listen to Trello webhooks to save created and updated cards into a local database;
+- Listen to Trello webhooks to save created and updated cards into a local database; it should also **delete cards** whenever receiving the relative event.
 
 The React frontend app should be able to:
 
@@ -40,7 +40,7 @@ The React frontend app should be able to:
 The exercise is to write some code **only** where the `TODO: ` instructions are:
 
 - [./app/controllers/api/v1/cards_controller.rb](./app/controllers/api/v1/cards_controller.rb): write the endpoint to create cards (see [API reference](#-api-reference) below);
-- [./app/controllers/api/v1/webhooks_controller.rb](./app/controllers/api/v1/webhooks_controller.rb): write the Trello webhook that saves cards to the database;
+- [./app/controllers/api/v1/webhooks_controller.rb](./app/controllers/api/v1/webhooks_controller.rb): write the Trello webhook that saves / deletes cards from / to the database;
 - [./spec/controllers/api/v1/cards_controller_spec.rb](./spec/controllers/api/v1/cards_controller_spec.rb): write the the tests for the controller;
 - [./spec/controllers/api/v1/webhooks_controller_spec.rb](./spec/controllers/api/v1/webhooks_controller_spec.rb): write the the tests for the trello webhook;
 - [./spec/models/card_spec.rb](./spec/models/card_spec.rb): write the tests for the card model;
